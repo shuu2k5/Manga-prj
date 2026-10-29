@@ -40,6 +40,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.database)
+    implementation(libs.firebase.auth)
     implementation(libs.cardview)
     implementation(libs.recyclerview)
     testImplementation(libs.junit)
