@@ -55,6 +55,7 @@
             android:textColor="@color/black"
             android:textColorHighlight="#50000000"
             android:textCursorDrawable="@null"
+            android:hint="Tìm theo tên truyện"
             android:textSize="20sp" />
 
         <Button
