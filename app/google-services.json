@@ -8,6 +8,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:209494984192:android:727aabd3c889e0b5e73ae5",
+        "android_client_info": {
+          "package_name": "com.example.managa_manager_v3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9uZuYPzlzUbOHfvNjtHTWqUlrY5sTywU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:209494984192:android:3c21c84aad7c6ab1e73ae5",
         "android_client_info": {
           "package_name": "com.example.manga_manager_v2"

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Manga_Manager_v2"
+rootProject.name = "Managa_Manager_v3"
 include(":app")
  

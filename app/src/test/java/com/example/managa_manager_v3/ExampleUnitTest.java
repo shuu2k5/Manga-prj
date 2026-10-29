@@ -1,4 +1,4 @@
-package com.example.manga_manager_v2;
+package com.example.managa_manager_v3;
 
 import org.junit.Test;
 

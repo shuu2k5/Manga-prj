@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.manga_manager_v2"
+    namespace = "com.example.managa_manager_v3"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.manga_manager_v2"
+        applicationId = "com.example.managa_manager_v3"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -40,6 +40,8 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.database)
+    implementation(libs.cardview)
+    implementation(libs.recyclerview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

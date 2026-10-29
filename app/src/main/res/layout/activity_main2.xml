@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/khung"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/in4name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="thông tin truyện"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#2A66FF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/khung"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <EditText
+                android:id="@+id/edtten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/khung"
+                android:drawableStart="@android:drawable/ic_menu_gallery"
+                android:ems="10"
+                android:hint="Tên truyện"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="38dp"
+                android:paddingBottom="6dp"
+                android:textAlignment="center"
+                android:textColor="#2A66FF"
+                android:textColorHighlight="#50000000"
+                android:textColorHint="#2A66FF"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edttacgia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/khung"
+                android:drawableStart="@android:drawable/ic_menu_edit"
+                android:ems="10"
+                android:hint="Tác giả"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="38dp"
+                android:paddingBottom="6dp"
+                android:textAlignment="center"
+                android:textColor="#2A66FF"
+                android:textColorHighlight="#50000000"
+                android:textColorHint="#2A66FF"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edttap"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/khung"
+                        android:ems="10"
+                        android:hint="Tập số"
+                        android:inputType="number"
+                        android:paddingStart="5dp"
+                        android:paddingTop="6dp"
+                        android:paddingEnd="5dp"
+                        android:paddingBottom="6dp"
+                        android:textAlignment="center"
+                        android:textColor="#2A66FF"
+                        android:textColorHighlight="#50000000"
+                        android:textColorHint="#2A66FF"
+                        android:textCursorDrawable="@null"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/edtsoluong"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/khung"
+                        android:ems="10"
+                        android:hint="Số lượng"
+                        android:inputType="number"
+                        android:paddingStart="5dp"
+                        android:paddingTop="6dp"
+                        android:paddingEnd="5dp"
+                        android:paddingBottom="6dp"
+                        android:textAlignment="center"
+                        android:textColor="#2A66FF"
+                        android:textColorHighlight="#50000000"
+                        android:textColorHint="#2A66FF"
+                        android:textCursorDrawable="@null"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edtgia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/khung"
+                        android:ems="10"
+                        android:hint="Giá tiền"
+                        android:inputType="number"
+                        android:paddingStart="5dp"
+                        android:paddingTop="6dp"
+                        android:paddingEnd="5dp"
+                        android:paddingBottom="6dp"
+                        android:textAlignment="center"
+                        android:textColor="#2A66FF"
+                        android:textColorHighlight="#50000000"
+                        android:textColorHint="#2A66FF"
+                        android:textCursorDrawable="@null"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/edtdate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/khung"
+                        android:clickable="true"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:hint="Ngày nhập"
+                        android:inputType="date"
+                        android:paddingStart="5dp"
+                        android:paddingTop="6dp"
+                        android:paddingEnd="5dp"
+                        android:paddingBottom="6dp"
+                        android:textAlignment="center"
+                        android:textColor="#2A66FF"
+                        android:textColorHighlight="#50000000"
+                        android:textColorHint="#2A66FF"
+                        android:textCursorDrawable="@null"
+                        android:textSize="20sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/btnback"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#602A66FF"
+                        android:text="Quay lại"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btninsert"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#602A66FF"
+                        android:text="Tự động"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
