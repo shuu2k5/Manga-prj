@@ -3,10 +3,8 @@ package com.example.managa_manager_v3;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.health.SystemHealthManager;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -14,9 +12,6 @@ import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -198,9 +193,9 @@ public class MainActivity2 extends AppCompatActivity {
         }
         String kytu3 = String.format("%03d",tap);
         String kytu4 = String.format("%03d", gia/1000) + "K";
-        String kytu5 = String.format("%02d",soluong);
+        //String kytu5 = String.format("%02d",soluong);
         //String kytu6 = ngaynhap.replace("/", "");
-        return kytu1 + kytu2 + kytu3 + kytu4 + kytu5;// + kytu6;
+        return kytu1 + kytu2 + kytu3 + kytu4;// + kytu5;// + kytu6;
     }
     private String CreateIdSystem (){
         long id = System.currentTimeMillis();

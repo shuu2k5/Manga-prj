@@ -5,10 +5,8 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -23,9 +21,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -88,9 +84,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 });
-                searchlist.clear();
-                searchlist.addAll(listtruyen);
-                truyenAdapter.updateList(searchlist);
+                filter(edtsearch.getText().toString());
             }
 
             @Override
